@@ -8,7 +8,7 @@ socket = UDPSocket()
 socket.onReceive(onUDPReceive)
 socket.begin(1235)
 
-network = "10.190.162"
+network = "10.190.162."
 	
 for host in range(255):
 
